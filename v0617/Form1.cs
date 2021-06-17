@@ -51,8 +51,8 @@ namespace v0617
 
         private void label1_Click(object sender, EventArgs e)
         {
-            vx = Math.Abs(vx) * 0;
-            vy = Math.Abs(vy) * 0;
+            
+            timer1.Enabled = false;
         }
     }
 }
